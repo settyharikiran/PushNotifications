@@ -1,0 +1,4 @@
+CurrentMessage
+<h1>{{(message|async)?.notification.title}}</h1>
+<p>{{(message|async)?.notification.body}}</p>
+{{message |async |json}}
